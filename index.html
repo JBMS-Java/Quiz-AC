@@ -4,24 +4,221 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AC Quiz</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/mediaquery.css">
     <link rel="stylesheet" href="style.css" media="all">
 </head>
 <body>
-    <header>
-        <picture>
-            <img src="" alt="Franquia Assassin's Creed com os principais protagonistas">
-        </picture>
+    <header id="banner"> 
         <h1>Quiz Assassin's Creed</h1>
         <p>Teste os seus conhecimentos sobre a franquia!</p>
     </header>
     <main>
-        <h2>O início de tudo...</h2>
-        <p>A franquia Assassin's Creed teve início em 2007 com o lançamento do jogo <strong>Assassin's Creed</strong> e desde lá já são 18 anos de existência, 9 novos principais e 17 jogos spin-offs. A série também contra com curtas-metragens e vários projetos em outras mídias, como livros, por exemplo. Cada jogo, cada personagem e cada período acrescenta um quebra-cabeça a mais para a complexa história desse universo, contando a história da <strong>Primeira Civilização</strong> que veio antes de nós, ou os <strong>Isu</strong>, como são chamados. Os interesses conflitantes de <strong>Assassinos</strong> e <strong>Templários</strong> deram início a uma guerra oculta ao longo da história, desde os tempos muito antes de Cristo.</p>
-
+        <section>
+            <h2>O início de tudo...</h2>
+            <p>A franquia Assassin's Creed teve início em 2007 com o lançamento do jogo <strong>Assassin's Creed</strong> e desde lá já são 18 anos de existência, 9 novos principais e 17 jogos spin-offs. A série também contra com curtas-metragens e vários projetos em outras mídias, como livros, por exemplo. Cada jogo, cada personagem e cada período acrescenta um quebra-cabeça a mais para a complexa história desse universo, contando a história da <strong>Primeira Civilização</strong> que veio antes de nós, ou os <strong>Isu</strong>, como são chamados. Os interesses conflitantes de <strong>Assassinos</strong> e <strong>Templários</strong> deram início a uma guerra oculta ao longo da história, desde os tempos muito antes de Cristo.</p>
+            <p>Esse quiz foi criado para testar seus conhecimentos sobre a franquia e ver o quanto você conhece sobre Assassin's Creed!</p>
+        </section>
+        <section>
+            <h2>Pergunta 1: Qual o jogo mais antigo na cronologia?</h2>
+            <form action="">
+                <input type="radio" name="AC" id="odyssey">
+                <label for="odyssey">AC Odyssey</label>
+                <input type="radio" name="AC" id="origins">
+                <label for="origins">AC Origins</label>
+                <input type="radio" name="AC" id="valhalla">
+                <label for="valhalla">AC Valhalla</label>
+                <input type="radio" name="AC" id="AC_1">
+                <label for="AC_1">AC 1</label>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 2: Qual protagonista da franquia viveu por mais tempo?</h2>
+            <form action="">
+                <input type="radio" name="protagonista" id="Kassandra">
+                <label for="Kassandra">Kassandra/Alexios de Esparta</label>
+                <input type="radio" name="protagonista" id="Altair">
+                <label for="Altair">Altair Ibn-La'Ahad</label>
+                <input type="radio" name="protagonista" id="Ezio">
+                <label for="Ezio">Ezio Auditore</label>
+                <input type="radio" name="protagonista" id="Eivor">
+                <label for="Eivor">Eivor Varinsdottir</label>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 3: Qual protagonista de Assassin's Creed teve mais pares românticos (Oficialmente)?</h2>
+            <form action="">
+                <input type="radio" name="par" id="Jacob">
+                <label for="Jacob">Jacob</label>
+                <input type="radio" name="par" id="Arno">
+                <label for="Arno">Arno Dorian</label>
+                <input type="radio" name="par" id="Shay">
+                <label for="Shay">Shay Cormac</label>
+                <input type="radio" name="par" id="Auditore">
+                <label for="Auditore">Ezio Auditore</label>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 4: No que este símbolo é inspirado?</h2>
+            <picture>
+                <img src="imagens/logo2.webp" alt="Logo dos assassinos de Assassin's Creed">
+                <figcaption>Figura 1: Logo dos Assassinos</figcaption>
+            </picture>
+            <input type="text" name="logo" id="logo" placeholder="Digite sua resposta...">
+            <label for="logo"></label>
+        </section>
+        <section>
+            <h2>Pergunta 5: Em AC Valhalla, Eivor se junta aos Ocultos:</h2>
+            <form action="">
+                <input type="radio" name="escolha" id="sim">
+                <label for="sim">Verdadeiro</label>
+                <input type="radio" name="escolha" id="nao">
+                <label for="nao">Falso</label>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 6: Quem foi o primeiro usuário de lâmina oculta registrado na história da franquia?</h2>
+            <form action="">
+                <input type="radio" name="opcao" id="Altair">
+                <label for="Altair">Altair</label>
+                <input type="radio" name="opcao" id="Bayek">
+                <label for="Bayek">Bayek</label>
+                <input type="radio" name="opcao" id="Aya">
+                <label for="Aya">Aya</label>
+                <input type="radio" name="opcao" id="Darius">
+                <label for="Darius">Darius</label>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 7: Quais desses personagens são formalmente assassinos?</h2>
+            <form action="">
+                <label for="Cormac">
+                    <input type="checkbox" name="Cormac" id="Cormac"> Shay Cormac
+                </label>
+                <label for="Edward">
+                    <input type="checkbox" name="Edward" id="Edward"> Edward Kenway
+                </label>
+                <label for="Basim">
+                    <input type="checkbox" name="Basim" id="Basim"> Basim Ibn Ishaq
+                </label>
+                <label for="">
+                    <input type="checkbox" name="" id=""> Deimos
+                </label>
+                <label for="Maquiavel">
+                    <input type="checkbox" name="Maquiavel" id="Maquiavel"> Nicolau Maquiavel
+                </label>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 8: Qual desses personagens teve a traição expostas por um deus?</h2>
+            <form action="sabio">
+                <input type="radio" name="pergunta8" id="sabio">
+                <label for="sabio">O Sábio</label>
+                <input type="radio" name="pergunta8" id="mualim">
+                <label for="mualim">Al Mualim</label>
+                <input type="radio" name="pergunta8" id="james">
+                <label for="james">James Kidd</label>
+                <input type="radio" name="pergunta8" id="lucy">
+                <label for="lucy">Lucy Stillman</label>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 9: Quem é o único humano de Assassin's Creed que nunca morreu?</h2>
+            <input type="radio" name="pergunta9" id="Kassandra">
+            <label for="Kassandra">Kassandra/Alexios de Esparta</label>
+            <input type="radio" name="pergunta9" id="Desmond">
+            <label for="Desmond">Desmond Miles</label>
+            <input type="radio" name="pergunta9" id="barba">
+            <label for="barba">Barba Negra</label>
+            <input type="radio" name="pergunta9" id="ele">
+            <label for="ele">Basim Ibn Ishaq</label>
+        </section>
+        <section>
+            <h2>Pergunta 10: Qual é o arfetato mais poderoso do universo de Assassin's Creed até o momento?</h2>
+            <input type="radio" name="pergunta10" id="maca">
+            <label for="maca">Maçã do Éden</label>
+            <input type="radio" name="pergunta10" id="">
+            <label for="">Bastão Hermes Trismegisto</label>
+            <input type="radio" name="pergunta10" id="espada">
+            <label for="espada">Espada do Éden</label>
+            <input type="radio" name="pergunta10" id="lamina">
+            <label for="lamina">Lâmina Oculta</label>
+        </section>
     </main>
     <footer>
-
+        <section id="tabela">
+            <h2>Tabela de Pontuação:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pontuação</th>
+                        <th>Avaliação</th>
+                        </tr>
+                    </thead>
+                <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Player Casual</td>
+                        </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Já ouviu falar</td>
+                        </tr>
+                    <tr>
+                        <td>5-6</td>
+                        <td>Conhece muito</td>
+                        </tr>
+                    <tr>
+                        <td>7-8</td>
+                        <td>Entusiasta</td>
+                        </tr>
+                    <tr>
+                        <td>9-10</td>
+                        <td>Fã de coração</td>
+                        </tr>
+                    <tr>
+                            <td colspan="2">Muito obrigado por testar!</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+            <section>
+                <h2>Verifique suas respostas</h2>
+                <details>
+                    <summary>Clique aqui para ver as respostas!</summary>
+                    <ol>
+                        <li>1. Ac Odyssey</li>
+                        <li>2. Kassandra/Alexios de Esparta</li>
+                        <li>3. Ezio Auditore</li>
+                        <li>4. O crânio de uma águia</li>
+                        <li>5. Falso</li>
+                        <li>6. Darius</li>
+                        <li>7. Edward Kenway, Basim Ibn Ishaq, Nicolau Maquiavel</li>
+                        <li>8. Lucy Stillman</li>
+                        <li>9. Basim Ibn Ishaq</li>
+                        <li>10. Bastão Hermes Trismegisto</li>
+                    </ol>
+                </details>
+            </section>
+            <section>
+                <fieldset>
+                    <legend>Informações de contato</legend>
+                    <form action="">
+                        <label for="name">Nome:</label> <br>
+                        <input type="text"> <br>
+                        <label for="mail">Email:</label> <br>
+                        <input type="email" name="mail" id="mail"> <br>
+                        <label for="comentario">Comentários:</label> <br>
+                        <textarea name="comentario" id="comentario"></textarea> <br>
+                        <label for="botao"></label>
+                        <input type="submit" name="botao" id="botao" value="Envie o feedback">
+                    </form>
+                </fieldset>
+            </section>
+            <section id="rodape">
+                <p>&copy; Quiz de programadores. Todos os direitos reservados</p>
+                <p>Para conhecer mais sobre mim <a href="#">clique aqui</a></p>
+            </section>
     </footer>
 </body>
 </html>

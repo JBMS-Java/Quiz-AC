@@ -37,6 +37,7 @@ header {
  header > h1 {
     font-family: "Sriracha", serif;
     font-size: 7rem;
+    rgba(0, 0, 0, 0.847)
     text-shadow: 10px 10px 25px rgba(0, 0, 0, 0.301);
 }
 
@@ -59,9 +60,45 @@ header img {
 }
 
 main {
-    margin: auto;
-    padding: 20rem;
-    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+section.debug {
+    display: block;
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.847);
+    font-size: 1.2rem;
+}
+
+input[type="radio"], input[style="checkbox"]{
+    accent-color: rgba(255, 0, 0, 0.425);
+}
+
+input[type="text"], input[type="password"], input[type="number"], input[type="email"]{
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
 }
 
 table {
